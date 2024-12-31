@@ -1,40 +1,53 @@
 # RenderJS
 
-*(原名：PDRenderKit，自 `2.0.0` 版本起更名為 RenderJS)*
+> [!NOTE]
+> (原名：PDRenderKit，自 `2.0.0` 版本起更名為 RenderJS)
+
+> RenderJS 是一個專注於 JavaScript 原生物件 prototype 擴展的輕量工具，提供強大的 DOM 操作能力與資料處理方法，減少重複代碼，提升開發效率。
 
 ![tag](https://img.shields.io/badge/tag-JavaScript%20Library-bb4444) 
-![size](https://img.shields.io/github/size/pardnchiu/RenderJS/dist%RenderJS.js) 
-![license](https://img.shields.io/github/license/pardnchiu/RenderJS)<br>
+![size](https://img.shields.io/github/size/pardnchiu/RenderJS/dist%2FRenderJS.js)<br>
 [![npm](https://img.shields.io/npm/v/@pardnchiu/renderjs)](https://www.npmjs.com/package/@pardnchiu/renderjs)
 [![download](https://img.shields.io/npm/dm/@pardnchiu/renderjs)](https://www.npmjs.com/package/@pardnchiu/renderjs)
 [![jsdeliver](https://img.shields.io/jsdelivr/npm/hm/@pardnchiu/renderjs)](https://www.jsdelivr.com/package/npm/@pardnchiu/renderjs)<br>
 [![](https://img.shields.io/badge/read-English%20Version-ffffff)](https://github.com/pardnchiu/RenderJS/blob/main/README.en.md)
 
 
-> RenderJS 是一個專注於 JavaScript 原生物件 prototype 擴展的輕量工具，提供強大的 DOM 操作能力與資料處理方法，減少重複代碼，提升開發效率。
-
 ## 特點
 
-- **DOM 操作簡化**：使用簡潔的鏈式語法，輕鬆完成複雜的 DOM 操作。
-- **增強查詢功能**：透過簡化選擇器語法，快速獲取元素，支援單一與多元素選取。
-- **預設多項擴展**：預設多項 prototype 擴展，加速各種場景的開發。
-- **即插即用**：與現有 JavaScript 程式無縫整合，支持現代瀏覽器。
+### DOM 操作簡化
+
+使用簡潔的鏈式語法，輕鬆完成複雜的 DOM 操作。
+
+### 增強查詢功能
+
+透過簡化選擇器語法，快速獲取元素，支援單一與多元素選取。
+
+### 預設多項擴展
+
+預設多項 prototype 擴展，加速各種場景的開發。
+
+### 即插即用
+
+與現有 JavaScript 程式無縫整合，支持現代瀏覽器。
 
 ## 安裝方式
 
-- 從 npm 安裝
-    ```bash
-    npm i @pardnchiu/renderjs
-    ```
+### 從 npm 安裝
 
-- 從 CDN 引入
-    ```html
-    <!-- Version 2.0.0 and above -->
-    <script src="https://cdn.jsdelivr.net/npm/@pardnchiu/renderjs@[VERSION]/dist/RenderJS.js"></script>
+```shell
+npm i @pardnchiu/renderjs
+```
 
-    <!-- Version 1.5.2 and below -->
-    <script src="https://cdn.jsdelivr.net/npm/pdrenderkit@[VERSION]/dist/PDRenderKit.js"></script>
-    ```
+### 從 CDN 引入
+
+```html
+<!-- 2.0.0 版本以上 -->
+<script src="https://cdn.jsdelivr.net/npm/@pardnchiu/renderjs@[VERSION]/dist/RenderJS.js"></script>
+
+<!-- 1.5.2 版本以下 -->
+<script src="https://cdn.jsdelivr.net/npm/pdrenderkit@[VERSION]/dist/PDRenderKit.js"></script>
+```
 
 ## 功能介紹
 
@@ -192,17 +205,26 @@
     });
     ```
 
+## 授權條款
+
+本專案採用類 MIT 授權，但僅提供混淆後的程式碼：
+- 與 MIT 相同：可自由使用、修改、再散布，包含商業用途
+- 主要差異：預設僅提供混淆版程式碼，原始碼需另外購買
+- 授權內容：必須保留原始版權聲明 (與 MIT 相同)
+
+詳細條款與條件請參閱[軟體使用協議](https://github.com/pardnchiu/RenderJS/blob/main/LICENSE)。
+
 ## 開發者
 
-<img src="https://avatars.githubusercontent.com/u/25631760" align="left" width="96" height="96" style="margin-right: 0.5rem;" />
+<img src="https://avatars.githubusercontent.com/u/25631760" align="left" width="96" height="96" style="margin-right: 0.5rem;">
 
 <h4 style="padding-top: 0">邱敬幃 Pardn Chiu</h4>
 
-[![](https://pardn.io/image/mail.svg)](mailto:dev@pardn.io) [![](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/pardnchiu) 
-
-## 授權條款
-
-本專案依據 [MIT](https://github.com/pardnchiu/RenderJS/blob/main/LICENSE) 授權使用。
+<a href="mailto:dev@pardn.io" target="_blank">
+    <img src="https://pardn.io/image/email.svg" width="48" height="48">
+</a> <a href="https://linkedin.com/in/pardnchiu" target="_blank">
+    <img src="https://pardn.io/image/linkedin.svg" width="48" height="48">
+</a>
 
 ***
 

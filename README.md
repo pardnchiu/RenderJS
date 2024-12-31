@@ -1,39 +1,52 @@
 # RenderJS
 
-*(Formerly known as PDRenderKit, renamed to RenderJS starting from version 2.0.0)*
+> [!NOTE]
+> (Formerly known as PDRenderKit, renamed to RenderJS starting from version `2.0.0`)
+
+> RenderJS is a lightweight tool focusing on extending JavaScript native object prototypes, providing powerful DOM manipulation and data processing methods.
 
 ![tag](https://img.shields.io/badge/tag-JavaScript%20Library-bb4444) 
-![size](https://img.shields.io/github/size/pardnchiu/RenderJS/dist%RenderJS.js) 
-![license](https://img.shields.io/github/license/pardnchiu/RenderJS)<br>
+![size](https://img.shields.io/github/size/pardnchiu/RenderJS/dist%2FRenderJS.js)<br>
 [![npm](https://img.shields.io/npm/v/@pardnchiu/renderjs)](https://www.npmjs.com/package/@pardnchiu/renderjs)
 [![download](https://img.shields.io/npm/dm/@pardnchiu/renderjs)](https://www.npmjs.com/package/@pardnchiu/renderjs)
 [![jsdeliver](https://img.shields.io/jsdelivr/npm/hm/@pardnchiu/renderjs)](https://www.jsdelivr.com/package/npm/@pardnchiu/renderjs)<br>
-[![](https://img.shields.io/badge/read-English%20Version-ffffff)](https://github.com/pardnchiu/RenderJS/blob/main/README.en.md)
-
-> RenderJS is a lightweight tool focusing on extending JavaScript native object prototypes, providing powerful DOM manipulation and data processing methods. It minimizes repetitive code and enhances development efficiency.
+[![](https://img.shields.io/badge/查閱-中文版本-ffffff)](https://github.com/pardnchiu/RenderJS/blob/main/README.zh.md)
 
 ## Feature
 
-- **Simplified DOM Manipulation**: Achieve complex DOM operations with concise chainable syntax.
-- **Enhanced Querying**: Quickly retrieve elements with simplified selector syntax, supporting both single and multiple element selection.
-- **Built-in Extensions**: Predefined prototype extensions accelerate development across various scenarios.
-- **Plug and Play:** Seamlessly integrates with existing JavaScript projects and supports modern browsers.
+### Simplified DOM Manipulation
+
+Achieve complex DOM operations with concise chainable syntax.
+
+### Enhanced Querying
+
+Quickly retrieve elements with simplified selector syntax, supporting both single and multiple element selection.
+
+### Built-in Extensions 
+
+Predefined prototype extensions accelerate development across various scenarios.
+
+### Plug and Play 
+
+Seamlessly integrates with existing JavaScript projects and supports modern browsers.
 
 ## Installation
 
-- Install from npm
-    ```bash
-    npm i @pardnchiu/renderjs
-    ```
+### Install via npm
 
-- Or include via CDN
-    ```html
-    <!-- Version 2.0.0 and above -->
-    <script src="https://cdn.jsdelivr.net/npm/@pardnchiu/renderjs@[VERSION]/dist/RenderJS.js"></script>
+```shell
+npm i @pardnchiu/renderjs
+```
 
-    <!-- Version 1.5.2 and below -->
-    <script src="https://cdn.jsdelivr.net/npm/pdrenderkit@[VERSION]/dist/PDRenderKit.js"></script>
-    ```
+### Include via CDN
+
+```html
+<!-- Version 2.0.0 and above -->
+<script src="https://cdn.jsdelivr.net/npm/@pardnchiu/renderjs@[VERSION]/dist/RenderJS.js"></script>
+
+<!-- Version 1.5.2 and below -->
+<script src="https://cdn.jsdelivr.net/npm/pdrenderkit@[VERSION]/dist/PDRenderKit.js"></script>
+```
 
 ## Overview
 
@@ -192,17 +205,26 @@
     });
     ```
 
+## License
+
+Similar to MIT License but provides obfuscated code only:
+- Same as MIT: Free to use, modify and redistribute, including commercial use 
+- Main difference: Provides obfuscated code by default, source code available for purchase
+- License terms: Must retain original copyright notice (same as MIT)
+
+For detailed terms and conditions, please see the [Software Usage Agreement](https://github.com/pardnchiu/RenderJS/blob/main/LICENSE).
+
 ## Creator
 
-<img src="https://avatars.githubusercontent.com/u/25631760" align="left" width="96" height="96" style="margin-right: 0.5rem;" />
+<img src="https://avatars.githubusercontent.com/u/25631760" align="left" width="96" height="96" style="margin-right: 0.5rem;">
 
 <h4 style="padding-top: 0">邱敬幃 Pardn Chiu</h4>
 
-[![](https://pardn.io/image/mail.svg)](mailto:dev@pardn.io) [![](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/pardnchiu) 
-
-## License
-
-This source code project is licensed under the [MIT](https://github.com/pardnchiu/RenderJS/blob/main/LICENSE) license.
+<a href="mailto:dev@pardn.io" target="_blank">
+    <img src="https://pardn.io/image/email.svg" width="48" height="48">
+</a> <a href="https://linkedin.com/in/pardnchiu" target="_blank">
+    <img src="https://pardn.io/image/linkedin.svg" width="48" height="48">
+</a>
 
 ***
 

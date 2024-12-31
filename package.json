@@ -1,6 +1,6 @@
 {
     "name": "@pardnchiu/renderjs",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "A lightweight frontend rendering tool focusing on real-time DOM manipulation and flexible utilities for small to medium projects.",
     "main": "dist/RenderJS.js",
     "scripts": {
@@ -21,20 +21,19 @@
     },
     "keywords": [
         "javascript-library",
-        "renderjs",
         "frontend-tool",
-        "dom-manipulation",
-        "lightweight",
         "ui-tools",
-        "real-time-dom",
-        "flexible-development"
+        "pure-javascript",
+        "native-api",
+        "邱敬幃",
+        "pardnchiu"
     ],
     "author": {
         "name": "邱敬幃 Pardn Chiu",
         "email": "dev@pardn.io",
         "url": "https://github.com/pardnchiu"
     },
-    "license": "MIT",
+    "license": "Proprietary",
     "bugs": {
         "url": "https://github.com/pardnchiu/RenderJS/issues",
         "email": "dev@pardn.io"
