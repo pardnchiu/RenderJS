@@ -1,3 +1,5 @@
+<img src="https://renderjs.pardn.io/static/image/logo.png" width=80>
+
 # RenderJS
 
 > [!NOTE]
