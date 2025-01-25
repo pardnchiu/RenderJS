@@ -1,7 +1,7 @@
 # RenderJS
 
 > [!NOTE]
-> (原名：PDRenderKit，自 `2.0.0` 版本起更名為 RenderJS)
+> (原名：PDExtension／PDRenderKit，自 `2.0.0` 版本起更名為 RenderJS)
 
 > RenderJS 是一個專注於 JavaScript 原生物件 prototype 擴展的輕量工具，提供強大的 DOM 操作能力與資料處理方法，減少重複代碼，提升開發效率。
 
