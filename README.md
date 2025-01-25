@@ -3,7 +3,7 @@
 # RenderJS
 
 > [!NOTE]
-> (Formerly known as PDRenderKit, renamed to RenderJS starting from version `2.0.0`)
+> (Formerly known as PDExtension/PDRenderKit, renamed to RenderJS starting from version `2.0.0`)
 
 > RenderJS is a lightweight tool focusing on extending JavaScript native object prototypes, providing powerful DOM manipulation and data processing methods.
 
