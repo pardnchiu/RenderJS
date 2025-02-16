@@ -205,6 +205,15 @@ npm i @pardnchiu/renderjs
     });
     ```
 
+### Interface
+
+| [String](./src/interface/String.ts) | [Number](./src/interface/Number.ts) | [Array](./src/interface/Array.ts) | [**HTMLElement**](./src/interface/HTMLElement.ts) |
+| - | - | - | - |
+| [**Object**](./src/interface/Object.ts) | [**Map**](./src/interface/Map.js) | [**Date**](./src/interface/Date.ts) | [**HTMLFormElement**](./src/interface/HTMLFormElement.ts) |
+| [**URL**](./src/interface/URL.js) | [**FormData**](./src/interface/FormData.ts) | [**File**](./src/interface/File.ts) | [**HTMLLinkElement**](./src/interface/HTMLLinkElement.ts) |
+| [**Image**](./src/interface/Image.ts) | [**Element**](./src/interface/Element.ts) | [**DocumentFragment**](./src/interface/DocumentFragment.ts) | [**HTMLVideoElement**](./src/interface/HTMLVideoElement.ts) |
+| [**window**](./src/interface/window.ts) |
+
 ## 授權條款
 
 本專案採用類 MIT 授權，但僅提供混淆後的程式碼：
